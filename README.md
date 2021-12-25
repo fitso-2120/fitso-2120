@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @fitso-2120. I'm not good at English.
+- 👋 Hi, I’m @fitso-2120. I'm not good at English.<br/>
   I am an engineer who mainly designs and develops web-based systems and builds infrastructure.
 - 👀 I’m interested in Rust-lang.<br/>
   For now, we plan to list programs that use Rust-lang on this site.<br/>
@@ -6,7 +6,7 @@
   <br/>
   When porting to different platforms, how to handle graphics is a problem.<br/>
   Rust-lang does not have a graphics API by default.<br/>
-  There is no program that strongly requires conversation, so
+  There is no program that strongly requires conversation, so<br/>
   I decided to output directly to a file as PNG etc.<br/>
   <br/>
   It is a policy to write things that require conversation with nodejs + (WASM + Rust-lang).<br/>
