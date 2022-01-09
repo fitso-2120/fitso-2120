@@ -36,6 +36,17 @@ for(int i=min; i<max; i++) {...}
 *in* 表記だと *max* まで繰り返しに含むように見えませんか？
 
 `c`風の文法廃して、繰り返しを *in* 表記にまとめてしまった影響でしょうか。とてもとても紛らわしいです。
+
+### 知識不足
+```rust
+for i in min..max {...}
+```
+について
+```rust
+for i in min..=max {...}
+```
+という記法が存在していて、こちらは正しく`max`まで繰り返す。
+**=** をつけて区別する形でおさまった・・・のかな。
 <!---
 fitso-2120/fitso-2120 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
