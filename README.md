@@ -134,3 +134,17 @@ GUIとして起動するなら、不要。
 ```
 を書いておけば、コマンドプロンプトの画面は起動されない。
 </details>
+
+<details>
+  <summary>githubのmarkdownで折りたたみ</summary>
+  詳細を書いていると長くなってしまうことってよくある。普段は見出しだけ表示して、詳細を見たいときに展開ができれば便利。そんなときの記述方法
+
+  ```Markdown
+  <deteils>
+    <summary>見出し</summary>
+    詳細
+  </details>
+```
+
+とすれば、必要に応じて詳細が展開される。
+</details>
